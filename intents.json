@@ -1,0 +1,295 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "Hey",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to DoctorSina, your intelligent virtual doctor. How can I assist you today?",
+        "Good to see you again! What can I help you with?",
+        "Hi there, how can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a good day",
+        "Bye",
+        "Ciao",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Take care, and don’t hesitate to reach out if you have more questions!",
+        "Sad to see you go :(",
+        "Talk to you later! If you have more questions, feel free to come back."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "doctor_sina",
+      "patterns": [
+        "What is DoctorSina?",
+        "Who is DoctorSina?",
+        "Tell me about DoctorSina",
+        "Present me DoctorSina"
+      ],
+      "responses": [
+        "DoctorSina is a cutting-edge telemedicine platform designed to revolutionize healthcare. Using AI, it helps professionals make accurate diagnoses and generate detailed medical reports quickly.",
+        "DoctorSina is a state-of-the-art telemedicine platform utilizing AI and blockchain technology to provide high-quality, efficient healthcare services tailored to your needs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creation",
+      "patterns": [
+        "Who created you?",
+        "Who developed DoctorSina?"
+      ],
+      "responses": [
+        "DoctorSina  was developed by Taha Hamim Boughanmi. You can check out his LinkedIn profile here: https://www.linkedin.com/in/taha-hamim-boughanmi-8a67672a6/"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "inquire_services",
+      "patterns": [
+        "What services do you offer?"
+      ],
+      "responses": [
+        "DoctorSina offers a range of services including real-time diagnoses, treatment plans, medication reminders, and chronic disease management. We're here to revolutionize your healthcare experience!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ask_about_pricing",
+      "patterns": [
+        "What are your prices?"
+      ],
+      "responses": [
+        "Our pricing is competitive and affordable! We offer free access, and our plans range from just $0.99 for basic services to $9.99 for premium features, ensuring quality care for everyone."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "patient_testimonials",
+      "patterns": [
+        "Do you have any patient testimonials?"
+      ],
+      "responses": [
+        "Absolutely! Many users, like John and Alice, have praised DoctorSina for its efficiency and life-saving capabilities. They appreciate the ease of access to quality healthcare!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "request_diagnosis",
+      "patterns": [
+        "I need a diagnosis"
+      ],
+      "responses": [
+        "Just describe your symptoms, and our AI will help analyze the information to provide you with insights and possible diagnoses!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ask_about_features",
+      "patterns": [
+        "What features does DoctorSina have?"
+      ],
+      "responses": [
+        "DoctorSina features AI-based computer-aided diagnosis, clinical decision support, remote patient monitoring, and personalized treatment recommendations to enhance your healthcare experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "schedule_consultation",
+      "patterns": [
+        "I want to schedule a consultation"
+      ],
+      "responses": [
+        "Scheduling a consultation is easy! Just follow the prompts in the app, and you can connect with a healthcare professional at your convenience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?"
+      ],
+      "responses": [
+        "You can reach our support team via email at support@doctorsina.net or call us at (+1) 579-373-2177. We are here to help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diabete",
+      "patterns": [
+        "How can I know if I have diabetes?",
+        "I think I might have diabetes.",
+        "I feel really thirsty all the time, could it be diabetes?",
+        "I've been feeling very fatigued, is that a sign of diabetes?",
+        "My doctor mentioned I might be prediabetic.",
+        "I have frequent urination, should I be concerned about diabetes?",
+        "Is there a test to check for diabetes?",
+        "I've been feeling numbness in my hands and feet, could it be related to diabetes?",
+        "How often should I get tested for diabetes?"
+      ],
+      "responses": [
+      ],
+      "context_set": ""
+    },    
+    {
+      "tag": "heart",
+      "patterns": [
+        "How can I know if I have heart disease?",
+        "I think I might have heart issues.",
+        "I'm worried about my heart health.",
+        "I have chest pain, should I be concerned?",
+        "I feel pressure in my chest.",
+        "I experience shortness of breath sometimes.",
+        "I've been feeling fatigued lately, could it be my heart?",
+        "What tests can determine if I have heart disease?",
+        "I have a family history of heart disease.",
+        "I'm experiencing irregular heartbeat, is that normal?",
+        "I want to know if I’m at risk for heart disease.",
+        "I feel dizzy and faint, could it be related to my heart?",
+        "I've heard that high cholesterol can lead to heart problems."
+      ],
+      "responses": [
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heart_attack_info",
+      "patterns": [
+        "What is a heart attack?",
+        "Tell me about heart attacks",
+        "What causes a heart attack?"
+      ],
+      "responses": [
+      "A heart attack happens when there’s a reduction in blood supply to part of the heart muscle. This lack of blood flow can cause damage to the heart.",
+   
+     "Sometimes, when chest pain occurs suddenly, it’s unclear if it’s due to unstable angina or a heart attack. Until tests confirm the diagnosis, doctors sometimes call this Acute Coronary Syndrome (ACS)."
+        
+      ]
+    },
+    {
+      "tag": "heart_attack_diagnosis",
+      "patterns": [
+        "How is a heart attack diagnosed?",
+        "What tests are done for a heart attack?"
+      ],
+      "responses": [
+        "In order to find out if you’re having a heart attack, you’ll need to have some tests. These tests can include:",
+          "1. An electrocardiogram (ECG) – to check your heart’s rhythm and electrical activity.",
+          "2. Blood tests – to check troponin levels, a protein that’s released into the bloodstream when the heart muscle is damaged.",
+           "3. An assessment of blood pressure and blood oxygen levels.",
+           "4. A chest X-ray and echocardiogram to assess heart structure."
+      ]
+    },
+    {
+      "tag": "heart_attack_treatment",
+      "patterns": [
+        "How is a heart attack treated?",
+        "What treatments are available for heart attacks?"
+      ],
+      "responses": [
+        "When someone has a heart attack, it’s important to restore blood flow quickly to minimise damage to the heart muscle.",
+   "Treatment depends on the type of heart attack and your individual situation."
+       
+      ]
+    },
+    {
+      "tag": "diabetes_info",
+      "patterns": [
+        "What is diabetes?",
+        "Tell me about diabetes",
+        "How does diabetes affect the body?"
+      ],
+      "responses": [
+        "Diabetes is a condition that affects how your body processes blood sugar (glucose). It happens when the body cannot produce enough insulin or use it effectively."
+      ]
+    },
+    {
+      "tag": "pre_diabetes",
+      "patterns": [
+        "What is pre-diabetes?",
+        "How do I know if I have pre-diabetes?"
+      ],
+      "responses": [
+        
+          "Pre-diabetes is when your blood glucose level is higher than normal, but not yet high enough to be diagnosed as diabetes.",
+   "It’s important to diagnose diabetes early as it can worsen over time without treatment."
+      ]
+    },
+    {
+      "tag": "diabetes_symptoms",
+      "patterns": [
+        "What are the symptoms of diabetes?",
+        "How do I know if I have diabetes?"
+      ],
+      "responses": [
+        
+         "The main symptoms of diabetes are feeling very thirsty, frequent urination, extreme fatigue, weight loss, and blurry vision."
+      ]
+    },
+    {
+      "tag": "gestational_diabetes",
+      "patterns": [
+        "What is gestational diabetes?",
+        "Can I get diabetes during pregnancy?"
+      ],
+      "responses": [
+         "Gestational diabetes occurs during pregnancy when blood glucose levels rise, typically in the middle of pregnancy.",
+         "Most women with gestational diabetes will have normal blood glucose levels after pregnancy, though they are at higher risk of developing diabetes later in life."
+      ]
+    },
+    {
+      "tag": "migraine_info",
+      "patterns": [
+        "What is a migraine?",
+        "Tell me about migraines",
+        "What causes migraines?"
+      ],
+      "responses": [
+   "A migraine is a type of headache characterized by severe, often one-sided pain, and other symptoms like nausea, vomiting, and sensitivity to light and sound."
+      ]
+    },
+    {
+      "tag": "migraine_diagnosis",
+      "patterns": [
+        "How is migraine diagnosed?",
+        "What tests are used to diagnose migraines?"
+      ],
+      "responses": [
+        "There’s no specific test to diagnose migraines. Your doctor will identify a pattern of recurring headaches and associated symptoms.",      
+        "The doctor may check for symptoms like one-sided pulsating pain, nausea, and sensitivity to light and noise."
+      ]
+    },
+    {
+      "tag": "migraine_complications",
+      "patterns": [
+        "What are the complications of migraines?",
+        "Can migraines cause other problems?"
+      ],
+      "responses": [
+        
+        "Migraines are linked to a small increased risk of other conditions like stroke, depression, and anxiety disorders."
+      ]
+    }
+  
+    
+  ]
+}
